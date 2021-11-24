@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoOficial">
         <activity
-            android:name=".frm_Cadastro"
+            android:name=".Frm_Cadastro"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
