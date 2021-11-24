@@ -11,6 +11,7 @@ public class FrmLogin extends AppCompatActivity {
 
     private TextView text_tela_cadastro;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

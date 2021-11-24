@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "614907996859",
+    "project_id": "projetooficial2-devmobile",
+    "storage_bucket": "projetooficial2-devmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614907996859:android:90806df7659dbd3c87979e",
+        "android_client_info": {
+          "package_name": "com.eber.projetooficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614907996859-jd60obcdk8hun6rlrlsglsn9d2l1r8sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcE7R7zPt6mIyPd1HA2pXolGeuPAH8wxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614907996859-jd60obcdk8hun6rlrlsglsn9d2l1r8sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
