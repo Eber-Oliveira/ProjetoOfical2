@@ -101,7 +101,6 @@ public class Frm_Cadastro extends AppCompatActivity {
                         }
                     }
                  });
-
     }
 
     private void SalvarDadosUsuario(){
@@ -117,14 +116,15 @@ public class Frm_Cadastro extends AppCompatActivity {
         DocumentReference documentReference = database.collection("Usuarios").document(usuarioID);
         documentReference.set(usuarios).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
-            public void onSuccess(Void unused) {
-                Log.d("database", "Sucesso ao salvar os dados");
+            public void onSuccess(Void aVoid) {
+
+                Log.d("db", "Sucesso ao salvar os dados");
             }
         })
           .addOnFailureListener(new OnFailureListener() {
                @Override
                public void onFailure(@NonNull Exception e) {
-                    Log.d("database_error", "Erro ao salvar dados" + e.toString());
+                    Log.d("db_error", "Erro ao salvar dados" + e.toString());
                }
          });
     }

@@ -18,6 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         />
     <ImageView
+        android:id="@+id/img_user"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/ic_user"
@@ -40,7 +41,7 @@
         android:id="@+id/textNomeUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ssssssss"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -61,7 +62,7 @@
         android:id="@+id/textEmailUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="eber@gmail.com"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -71,6 +72,7 @@
         app:layout_constraintStart_toEndOf="@id/iconeEmail"/>
 
     <Button
+        android:id="@+id/btn_deslogar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/deslogar"
